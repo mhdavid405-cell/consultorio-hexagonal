@@ -8,8 +8,5 @@
       - ./:/var/www/html
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    environment:
-      MYSQL_HOST: host.docker.internal
-      MYSQL_USER: root
-      MYSQL_PASSWORD: 235689
-      MYSQL_DATABASE: consultorio
+    env_file:
+      - .env

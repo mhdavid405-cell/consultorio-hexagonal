@@ -1,2 +1,26 @@
-
+# Variables de entorno — NUNCA subir al repo
 .env
+
+# Archivos de backup
+*.bak
+config/config.php.bak
+public/index.php.bak
+
+# Archivos de debug y prueba local
+test.php
+test_menu.php
+templates/test3.php
+templates/index_simple.php
+templates/index_original.php
+templates/index_clean.php
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
